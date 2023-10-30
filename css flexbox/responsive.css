@@ -1,0 +1,62 @@
+@media only screen and (max-width: 1200px) {
+    .btn a {
+        font-size: 13px;
+    }
+}
+@media only screen and (max-width: 1080px) {
+    .container {
+        margin: 0 auto;
+        flex-direction: column;
+        margin: 0 30px;
+    }
+    .first-item {
+        flex-basis: 100%;
+        min-height: 200px;
+        margin-bottom: 30px;
+    }
+    .first-item .btn {
+        text-align: left;
+    }
+    .first-item img {
+        width: 40%;
+        bottom: 0;
+        right: 30px;
+    }
+    .second-item {
+        flex-basis: 100%;
+        margin: 0 0;
+    }
+    .second-item .top {
+        margin-bottom: 30px;
+        flex-basis: 100%;
+        min-height: 200px;
+    }
+    .second-item .top img {
+        width: 20%;
+        right: 30px;
+        bottom: 0;
+    }
+    .second-item .bottom {
+        margin-bottom: 30px;
+        margin-top: 0;
+        flex-basis: 100%;
+        min-height: 200px;
+    }
+    .second-item .bottom img {
+        width: 20%;
+        right: 30px;
+        bottom: 0;
+    }
+    .third-item {
+        flex-basis: 100%;
+        min-height: 200px;
+    }
+    .third-item .btn {
+        text-align: left;
+    }
+    .third-item img {
+        width: 20%;
+        bottom: 0;
+        right: 30px;
+    }
+}
